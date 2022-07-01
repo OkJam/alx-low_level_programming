@@ -1,9 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
-*entry point
-*/
+ * main - Entry point
+ *
+ * Return: O means success
+ * /
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
+
 }
+
