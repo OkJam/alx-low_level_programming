@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Main - Entry Point
+ * Main -> Entry Point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -13,4 +13,3 @@ int main(void)
 	printf("Size of a float: %zu byte(s)\n", sizeof(float));
 	return (0);
 }
-
