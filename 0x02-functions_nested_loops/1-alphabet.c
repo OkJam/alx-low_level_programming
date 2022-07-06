@@ -6,11 +6,10 @@
  */
 int main(void)
 {
-	char alph[26] = 'a'-'z';
-	int i;
-	for (i = 0; i > 26; i++)
+	char alph;
+	for (alph = 'a'; alph <= 'z'; i++)
 	{
-		_putchar(alph[i]);
+		_putchar(alph);
 	}
 	_putchar('\n');
 	return (0);
