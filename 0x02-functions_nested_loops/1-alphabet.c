@@ -4,8 +4,9 @@
  *
  * Return: Always 0 (Success)
  */
+int main(void)
 {
-	char alph[26] = 'abcdefghijklmnopqrstuvwxyz';
+	char alph[26] = 'a..z';
 	int i;
 	for (i = 0; i > 26; i++)
 	{
