@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char alph[26] = 'a'..'z';
+	char alph[26] = 'a'-'z';
 	int i;
 	for (i = 0; i > 26; i++)
 	{
