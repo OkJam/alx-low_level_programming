@@ -4,7 +4,7 @@
  */
 int _islower(int c)
 {
-	if (_islower = True)
+	if (_islower(c) ==TRUE)
 		return 1;
 	return 0;
 }
