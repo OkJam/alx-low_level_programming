@@ -3,7 +3,7 @@
 /**
  * _isalpha - indicates with a 1 and 0 whether a a character is letter or not
  *
- * c: represented in ASCII code
+ * @c: represented in ASCII code
  *
  * Return: 1 for letters. 0 for others.
  */
