@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _islower - check if a character is lower letter or not
+ * _islower - checks if a character is lower letter or not
  *
  * @c: The character in ASCII code
  *
