@@ -2,9 +2,7 @@
 
 /**
  * _isupper -  check if a parameter is upper case
- *
  * @c: input character
- *
  * Return: 1 if c is upper and 0 if c is lower
  */
 int _isupper(int c)
