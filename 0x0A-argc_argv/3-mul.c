@@ -5,20 +5,16 @@
  * main - multiply two numbers
  * @argc: number of command line arguments
  * @argv: list of command line arguments
- * Return: 1 if number of argument is not two
+ * Return: 0- success 1 if number of argument is not two
  */
 
 int main(int argc, char *argv[])
 {
-	int min = atoi(argv[1]);
-	int max = atoi(argv[2]);
-
-	if ((argc - 1) != 2)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-		printf("%d\n", min * max);
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
